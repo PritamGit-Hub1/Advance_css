@@ -5,17 +5,31 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FlexBox In Css</title>
-    <style>
+    <!-- <style>
          body{
             color: red;
             background-color: yellow;
             border: 2px solid black;
          }
+    </style> -->
+    <style>
+        .container {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 10px;
+}
+.item {
+ background: lightgray;
+ padding: 20px;
+ flex: 1;
+}
+
     </style>
 </head>
 
 <body>
-    <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro temporibus quis libero consectetur,
+    <!-- <p class="p1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Provident porro temporibus quis libero consectetur,
         quia et autem esse accusantium excepturi nisi quidem qui atque deleniti ipsa deserunt maxime reiciendis placeat,
         nostrum veniam molestiae quam. Consectetur ipsum, labore laudantium deserunt illum ut accusamus natus
         repellendus corporis facere, inventore atque officiis ad!
@@ -28,7 +42,13 @@
     </div>
     <div>
         <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, in!</h1>
-    </div>
+    </div> -->
+    <div class="container">
+<div class="item">One</div>
+<div class="item">Two</div>
+<div class="item">Three</div>
+  </div>
+
 </body>
 
 </html>
